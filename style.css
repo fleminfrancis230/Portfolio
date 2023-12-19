@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=IBM+Plex+Mono&family=Karla&family=Nova+Square&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font font-family: IBM Plex Mono;
+}
+nav{
+    background-color: rgb(217, 155, 40);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: aliceblue;
+    border: 3px solid white;
+    padding: 3px;
+    background-color: rgb(25, 26, 27);
+}
+video{
+    width: 100%;
+    height: 93%;
+}
+.overlay{
+    position:absolute ;
+    top: 65%;
+    left:30%;
+    color: rgb(0, 255, 217);
+}
+.inner{
+    background-color: blueviolet;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px black,0 0 25px black;
+    letter-spacing: 7px;
+    position: relative;
+    top: 70px;
+    left: 0%;
+}
+/* image and content */
+span{
+    color: rgb(0, 68, 255);
+    text-shadow:  1px 2px 3px rgb(63, 118, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: rgb(194, 38, 38);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home::before{
+    content: "";
+    background-image: url('https://static.bandainamcoent.eu/high/one-piece/one-piece-odyssey/00-page-setup/OPOD_header_mobile_new.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    opacity: o.8;
+}
+.main{
+    position:absolute;
+    top: 1050px;
+    left: 100px;
+    padding: 100px;
+    border: 4px ridge brown;
+    box-shadow: 10px 10px 5px 12px wheat;
+}   
+/* about */
+h3{
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 3px 7px rgb(146, 84, 84);
+    margin: 15px;
+    font-size: xx-large;
+}
+h3:hover{
+    text-shadow:none;
+    text-decoration: underline;
+}
+h4{
+    text-decoration: underline;
+    text-align: center;
+    margin: 15px;
+}
+.pic img{
+    border-radius: %;
+}
+.pic{
+     display: flex;
+}
+.pic p{
+    text-align: justify;
+    margin: 40px;
+}
+.gallery{
+    margin-left: 200px;
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    margin: 7px;
+}
+/* service section */
+.row{
+    display: flex;
+}
+.box{
+     width: 300px;
+     height: 620px;
+     border: 2px solid;
+     margin: 10px;
+     background:linear-gradient(to top, rgb(173, 91, 91) 25%, rgb(241, 241, 241) 25%);
+     background-size: 100% 250%;
+     transition: all 0.8s;
+}
+.box:hover{
+    border: none;
+    box-shadow: 2px 3px 5px 7px black;
+    background-position: bottom;
+}
+.box img{
+    width: 100%;
+    height: 300px;
+}
+.box h4{
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    padding: 10px;
+}
+/* /* contact section */
+form{
+    width: 300px;
+    margin-left: 38%;
+}
+.input{
+    display: flex;
+    width: 120%;
+}
+button{
+    margin-left: 50%;
+    padding: 6px;
+    margin-top: 15px;
+}
